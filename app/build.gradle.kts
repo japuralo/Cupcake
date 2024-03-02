@@ -81,6 +81,10 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:${rootProject.extra["lifecycle_version"]}")
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:${rootProject.extra["lifecycle_version"]}")
     implementation("androidx.navigation:navigation-compose:2.7.4")
+    implementation("androidx.test.ext:junit-ktx:1.1.5")
+    implementation("androidx.compose.ui:ui-test-android:1.6.2")
+    implementation("androidx.compose.ui:ui-test-junit4-android:1.6.2")
+    androidTestImplementation("junit:junit:4.12")
 
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
